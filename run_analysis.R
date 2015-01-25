@@ -11,13 +11,13 @@ run_analysis <- function(){
       ## create varable for the poject data folder path
       data.folder <- "./data_project/"
       
-#       ## download the data files
-#       fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#       
-#       download.file(fileUrl,destfile="getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",method="curl")
-#       
-#       ## extract the files to the data folder
-#       unzip(paste0(data.folder, "getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"), overwrite = TRUE, exdir = data.folder)
+       ## download the data files
+       fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+       
+       download.file(fileUrl,destfile="getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",method="curl")
+       
+       ## extract the files to the data folder
+       unzip(paste0(data.folder, "getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"), overwrite = TRUE, exdir = data.folder)
       
       ## Add columns ‘Subjects’ (subject_test.txt) and ‘Activities’ (y_test.txt) 
       ## to test and train results variables.
