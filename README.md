@@ -1,8 +1,13 @@
-The function run_analysis.R is for the Getting and Cleaning Data course and will do the following: 
- Adds descriptive activity names to name the subject activities in the data set
- Appropriately labels the data with descriptive variable names. 
- Merges the training and the test sets to create one data set.
- And then extracts only the measurements on the mean and standard deviation. 
+The function run_analysis.R is for the Getting and Cleaning Data course and will do the following:
+
+       Adds descriptive activity names to name the subject activities in the data set
+       
+       Appropriately labels the data with descriptive variable names. 
+       
+       Merges the training and the test sets to create one data set.
+       
+       And then extracts only the measurements on the mean and standard deviation. 
+       
       
 It first imports the required modules, then creates a varable for the poject data folder path
       library(dplyr)
